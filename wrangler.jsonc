@@ -22,9 +22,9 @@
 	"observability": {
 		"enabled": true,
 	},
-	"worker_loaders": [
+*/	"worker_loaders": [
 		{
 			"binding": "LOADER",
 		},
-	],
+	],*/
 }
