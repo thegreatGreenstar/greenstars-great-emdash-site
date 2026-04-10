@@ -33,7 +33,7 @@ export default defineConfig({
 			sandboxRunner: sandbox(),
 			marketplace: "https://marketplace.emdashcms.com",
 		}),
-		passkeyPublicOrigin: "https://greenstars.cc",
 	],
 	devToolbar: { enabled: false },
+	passkeyPublicOrigin: "https://greenstars.cc",
 });
