@@ -7,6 +7,16 @@ import { defineConfig } from "astro/config";
 import emdash from "emdash/astro";
 
 export default defineConfig({
+	security: {
+    allowedDomains: [
+      { hostname: "greenstars.cc", protocol: "https" },
+    ],
+  },
+  vite: {
+    server: {
+      allowedHosts: ["greenstars.cc"],
+    },
+  },
 	output: "server",
 	adapter: cloudflare(),
 	image: {
