@@ -1,0 +1,13 @@
+# This is a comment
+
+/*
+  Access-Control-Allow-Origin: https://challenges.cloudflare.com https://cloudflare.com https://static.cloudflareinsights.com https://greenstars.cc
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  permissions-policy: camera=(), display-capture=(), geolocation=(), microphone=(), payment=(), usb=()
+  referrer-policy: no-referrer
+
+https://greenstars.cc/*
+  Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; font-src 'self'; img-src 'self' data: ; style-src-elem 'self' 'sha256-eTrKqaj6vVIKniwPPXwmrldBYNdjB+6H52gir3wrdFQ=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-vv9IoKo7BSLbWcUHr3tNmfNVmm5L/9Cfn2H6LMk7/ow=' 'sha256-fPFm/3eYqo4EnUvU8kc5OQHBHOGEh6gwaJcK+B8gYzw=' 'sha256-M8seqYmc6v+7BunAPseoQb/ZEJh1aGQXv/cCI4QMsoc=' 'sha256-Gn6ps0rj3Sn8xcSYBSRrjanWz+8pvzbzqfySEGeQEB8=' 'sha256-EczehA1Tlltsr7tNEmV6xZP1x00FBazwa5no23oaHXM=' 'sha256-oT//S4dlABy9FLt6JyS4Hu3pgldCZokQ5WhcRTfatuc=' 'sha256-VuGWo280Z2ZUzVjsWQ0fMa07bqI1dWgoVawAH8oKKAw=' ; script-src-elem 'self' 'unsafe-inline' https://static.cloudflareinsights.com ; script-src 'self' https://challenges.cloudflare.com https://ajax.cloudflare.com; style-src 'unsafe-hashes' 'self' 'sha256-aqNNdDLnnrDOnTNdkJpYlAxKVJtLt9CtFLklmInuUAE=' 'sha256-dgnctSvqPexkmKKUHUSzLRh3+ptnqAayZTOydF5mYDM=' 'sha256-Fjm0VqU/gMYU0uzyxZyitr2G3soErRUMpiFRyAZCHqc=' ; connect-src 'self' https://cloudflareinsights.com;
+  
