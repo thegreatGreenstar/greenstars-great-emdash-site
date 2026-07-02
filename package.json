@@ -11,7 +11,7 @@
 		"typecheck": "astro check" 
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "^13.1.6",
+		"@astrojs/cloudflare": "^14.1.0",
 		"@astrojs/react": "^5.0.0",
     "@emdash-cms/cloudflare": "^0.25.1",
     "@emdash-cms/plugin-forms": "^0.2.0",
